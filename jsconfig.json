@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "exclude": ["node_modules", "public"],
+    "typeAcquisition": {
+        "include": ["jest"]
+    }
+}

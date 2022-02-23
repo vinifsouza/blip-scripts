@@ -12,7 +12,13 @@
     "plugins": ["prettier"],
     "rules": {
         "prettier/prettier": "error",
-        "indent": ["error", 4, { "SwitchCase": 2 }],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 2
+            }
+        ],
         "no-console": "off",
         "camelcase": "off",
         "class-methods-use-this": "off",
@@ -28,7 +34,7 @@
         "no-unused-vars": "off",
         "no-restricted-syntax": "off",
         "guard-for-in": "off",
-        "prefer-const": "off",
+        "prefer-const": ["error"],
         "no-useless-catch": "off",
         "no-unsafe-finally": "off",
         "no-shadow": "off",
